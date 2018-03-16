@@ -32,7 +32,7 @@
             <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons">person</i>Profile</a>
             <a href="works.html" class="w3-bar-item w3-button w3-green"><i class="material-icons">work</i>Works</a>
             <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons">local_phone</i>Contact</a>
-            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="navbar_f()">&#9776;</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="nb()">&#9776;</a>
         </div>
     </div>
 
@@ -42,7 +42,7 @@
     </div>
 
     <script>
-    function navbar_f() {
+    function nb() {
         var x = document.getElementById("navbar");
         if (x.className.indexOf("w3-show") == -1) {
             x.className += " w3-show";
