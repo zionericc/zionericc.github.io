@@ -36,9 +36,9 @@
 .subHeaderPad{
 	padding:10px 0px 10px 0px !important;
 }
+
 /*Appearance*/
 body{
-	background-image:url(pics/bg.jpg);
 	background-color:black !important;
 	color:white !important;
 	background-attachment: fixed;
@@ -48,6 +48,15 @@ body{
 }
 .roundedPicture{
 	border-radius:50% !important;
+}
+
+.parallax_content {
+	height: 100%;
+	background-image:url(pics/bg.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax_r { 
@@ -87,13 +96,16 @@ wow.init();
 
 
 <body>
+<div class="parallax_content">
 <div class = "container-fluid no-pad">
 	<h1 align = "center"> FATE/GRAND ORDER </h1>
-	<h3 align = "center"> Somethingsomethingsomething </h3>
-	<h5 align = "center"> Somethingsomething </h5>
+	<h3 align = "center"> HTML, CSS, and JS Testing </h3>
+	<h5 align = "center"> BootStrap </h5>
+</div>
 </div>
 
 <div class="parallax_r" style="background-image: url(pics/mashu.png)"></div>
+<div class="parallax_content">
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell" align ="center">
@@ -134,8 +146,10 @@ wow.init();
 		</div>
 	</div>
 </div>
+</div>
 
 <div class="parallax_l" style="background-image: url(pics/artoria.png)"></div>
+<div class="parallax_content">
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell wow slideInLeft" data-wow-delay=".5s">
@@ -147,12 +161,43 @@ wow.init();
 		</div>
 	</div>
 </div>
+</div>
 
 <div class="parallax_r" style="background-image: url(pics/arthur.png)"></div>
+<div class="parallax_content">
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell">
-			<h1 align ="center">Content</h1>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell" align ="center">
+			<h1>Arthur Pendragon</h1>
+			<!-- Button to Open the Modal -->
+			  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+			    Noble Phantasm
+			  </button>
+
+			  <!-- The Modal -->
+			  <div class="modal fade" id="myModal2">
+			    <div class="modal-dialog modal-dialog-centered">
+			      <div class="modal-content">
+			      
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title" style="color:black">Arthur Pendragon -- Noble Phantasm</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			          <iframe width="465" height="300" src="https://www.youtube.com/embed/N5ba9qMp62k?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			        </div>
+			        
+			        <!-- Modal footer -->
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			        </div>
+			        
+			      </div>
+			    </div>
+			  </div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell wow slideInRight" data-wow-delay=".5s">
 			<img class="img-fluid mx-auto d-block" src="https://vignette.wikia.nocookie.net/fategrandorder/images/a/ab/ArthurSprite3.png/revision/latest?cb=20170309171924" alt="arthur"
@@ -160,8 +205,10 @@ wow.init();
 		</div>
 	</div>
 </div>
+</div>
 
 <div class="parallax_l" style="background-image: url(pics/altria.png)"></div>
+<div class="parallax_content">
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell wow slideInLeft" data-wow-delay=".5s">
@@ -173,12 +220,43 @@ wow.init();
 		</div>
 	</div>
 </div>
+</div>
 
 <div class="parallax_r" style="background-image: url(pics/nero-bride.png)"></div>
+<div class="parallax_content">
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell">
-			<h1 align ="center">Content</h1>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell" align ="center">
+			<h1>Nero Bride</h1>
+			<!-- Button to Open the Modal -->
+			  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">
+			    Noble Phantasm
+			  </button>
+
+			  <!-- The Modal -->
+			  <div class="modal fade" id="myModal4">
+			    <div class="modal-dialog modal-dialog-centered">
+			      <div class="modal-content">
+			      
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title" style="color:black">Nero Bride -- Noble Phantasm</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			          <iframe width="465" height="300" src="https://www.youtube.com/embed/ynit9qXn4Bo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			        </div>
+			        
+			        <!-- Modal footer -->
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			        </div>
+			        
+			      </div>
+			    </div>
+			  </div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell wow slideInRight" data-wow-delay=".5s">
 			<img class="img-fluid mx-auto d-block" src="https://vignette.wikia.nocookie.net/fategrandorder/images/4/40/Bridesprite3.png/revision/latest?cb=20160222071549" alt="nero-bride"
@@ -186,8 +264,10 @@ wow.init();
 		</div>
 	</div>
 </div>
+</div>
 
 <div class="parallax_l" style="background-image: url(pics/mordred.png)"></div>
+<div class="parallax_content">
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell wow slideInLeft" data-wow-delay=".5s">
@@ -199,12 +279,43 @@ wow.init();
 		</div>
 	</div>
 </div>
+</div>
 
 <div class="parallax_r" style="background-image: url(pics/shiki.png)"></div>
+<div class="parallax_content">
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell">
-			<h1 align ="center">Content</h1>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell" align ="center">
+			<h1>Saber Shiki</h1>
+			<!-- Button to Open the Modal -->
+			  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal6">
+			    Noble Phantasm
+			  </button>
+
+			  <!-- The Modal -->
+			  <div class="modal fade" id="myModal6">
+			    <div class="modal-dialog modal-dialog-centered">
+			      <div class="modal-content">
+			      
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title" style="color:black">Saber Shiki -- Noble Phantasm</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			          <iframe width="465" height="300" src="https://www.youtube.com/embed/5Y9JEof97Gc?rel=0&amp;showinfo=0&amp;start=5" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			        </div>
+			        
+			        <!-- Modal footer -->
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			        </div>
+			        
+			      </div>
+			    </div>
+			  </div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell wow slideInRight" data-wow-delay=".5s">
 			<img class="img-fluid mx-auto d-block" src="https://vignette.wikia.nocookie.net/fategrandorder/images/0/0a/Void_new_3.png/revision/latest?cb=20180216155049" alt="shiki"
@@ -212,8 +323,10 @@ wow.init();
 		</div>
 	</div>
 </div>
+</div>
 
 <div class="parallax_l" style="background-image: url(pics/okita.png)"></div>
+<div class="parallax_content">
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell wow slideInLeft" data-wow-delay=".5s">
@@ -225,12 +338,43 @@ wow.init();
 		</div>
 	</div>
 </div>
+</div>
 
 <div class="parallax_r" style="background-image: url(pics/miyamoto.png)"></div>
+<div class="parallax_content">
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell">
-			<h1 align ="center">Content</h1>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell" align ="center">
+			<h1>Musashi Miyamoto</h1>
+			<!-- Button to Open the Modal -->
+			  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal8">
+			    Noble Phantasm
+			  </button>
+
+			  <!-- The Modal -->
+			  <div class="modal fade" id="myModal8">
+			    <div class="modal-dialog modal-dialog-centered">
+			      <div class="modal-content">
+			      
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title" style="color:black">Musashi Miyamoto -- Noble Phantasm</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			          <iframe width="465" height="300" src="https://www.youtube.com/embed/TSE7Tc8FW18?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			        </div>
+			        
+			        <!-- Modal footer -->
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			        </div>
+			        
+			      </div>
+			    </div>
+			  </div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell wow slideInRight" data-wow-delay=".5s">
 			<img class="img-fluid mx-auto d-block" src="https://vignette.wikia.nocookie.net/fategrandorder/images/3/36/MusashiSprite3.png/revision/latest?cb=20170208222000" alt="miyamoto"
@@ -238,8 +382,10 @@ wow.init();
 		</div>
 	</div>
 </div>
+</div>
 
 <div class="parallax_l" style="background-image: url(pics/mashu.png)"></div>
+<div class="parallax_content">
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 centerCell wow slideInLeft" data-wow-delay=".5s">
@@ -250,6 +396,7 @@ wow.init();
 			<h1 align ="center">Content</h1>
 		</div>
 	</div>
+</div>
 </div>
 
 <div class = "host-padding">
