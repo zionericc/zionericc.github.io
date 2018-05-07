@@ -1,0 +1,117 @@
+body{
+	height: 100%;
+	background-color: black !important;
+	color: white;
+}
+
+html{
+    height: 100%;
+}
+
+#header{
+	position: relative;
+  	left: 0;
+  	top: 40%;
+  	width: 100%;
+	color:white;
+	text-align: center;
+	text-shadow:
+	-1px -1px 0 black,
+	1px -1px 0 black,
+	-1px 1px 0 black,
+	1px 1px 0 black; /* Text Stroke */
+}
+
+#footer{
+	position: relative;
+  	left: 0;
+  	top: 45%;
+  	width: 100%;
+	color:white;
+	text-align: center;
+	text-shadow:
+	-1px -1px 0 black,
+	1px -1px 0 black,
+	-1px 1px 0 black,
+	1px 1px 0 black; /* Text Stroke */
+}
+
+#section_l{
+	background-color: white;
+	color: black;
+	box-shadow: 10px 0px 10px #888888, -10px 0px 10px #888888;
+	border-radius: 15px 50px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#section_r{
+	background-color: white;
+	color: black;
+	box-shadow: 10px 0px 10px #888888, -10px 0px 10px #888888;
+	border-radius: 50px 15px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#content{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-shadow:
+	-1px -1px 0 black,
+	1px -1px 0 black,
+	-1px 1px 0 black,
+	1px 1px 0 black; /* Text Stroke */
+}
+
+.parallax_header{
+	height: 100%;
+	background-image: url(pics/header_pic.jpg);
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_bio{
+	height: 600px;
+	background-image: url(pics/bio.jpg);
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_works{
+	height: 200px;
+	background-image: url(pics/works.jpg);
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_contact{
+	height: 250px;
+	background-image: url(pics/contact.jpg);
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_footer{
+	height: 100%;
+	background-image: url(pics/header_pic.jpg);
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

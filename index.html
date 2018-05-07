@@ -1,115 +1,99 @@
 <!DOCTYPE html>
 <html>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
+<title> Zion Chan -- Portfolio </title>
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- W3.CSS STYLESHEETS -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- Google Icons -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> <!-- Bootstrap 4.0 -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Bootstrap JQ -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> <!-- Popper JS -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
-<link rel="stylesheet" href="https://zionericc.github.io/WOW-master/css/libs/animate.css"> <!-- WOW animations -->
-<script src="https://zionericc.github.io/WOW-master/dist/wow.min.js"></script> <!-- WOW animations -->
-<script src="https://gitcdn.xyz/repo/thesmart/jquery-scrollspy/0.1.3/scrollspy.js"></script> <!-- ScrollSpy Init -->
-<script>
-var wow = new WOW();
-wow.init();
-</script> <!-- Init wow -->
+<head>	
 
-<title>"Zion Chan -- Profile"</title>
+	<link rel="stylesheet" href="index.css"> <!-- Page CSS -->
 
-<style>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- Google Icons -->
 
-/*margins header*/
-.headermargin {
-	margin-top: 60px;
-	text-align: center;
-}
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> <!-- Bootstrap 4.0 -->
 
-/*Text is placed at the center of the cell*/
-.centerCell {
-    margin: auto;
-    width: 50%;
-}
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Bootstrap JQ -->
 
-</style>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> <!-- Popper JS -->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+
+	<link rel="stylesheet" href="https://zionericc.github.io/WOW-master/css/libs/animate.css"> <!-- WOW animations -->
+
+	<script src="https://zionericc.github.io/WOW-master/dist/wow.min.js"></script> <!-- WOW animations -->
+
+	<script>
+	var wow = new WOW();
+	wow.init();
+	</script> <!-- Init wow -->
+
 </head>
 
 <body>
 
-	<!-- NAVBAR -->
-	<div class="w3-top"> <!-- Lock to Top -->
-		<div class="w3-bar w3-card-2 w3-pale-green">
-	  		<a href="index.html" class="w3-bar-item w3-button w3-green"><i class="material-icons">person</i>Profile</a>
-	  		<a href="works.html" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons">work</i>Works</a>
-	  		<a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons">local_phone</i>Contact</a>
-	  		<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="nb()">&#9776;</a>
-	  	</div>
-
-	  	<div id="navbar" class="w3-bar-block w3-card-2 w3-pale-green w3-animate-opacity w3-hide w3-hide-large w3-hide-medium">
-            <a href="works.html" class="w3-bar-item w3-button"><i class="material-icons">work</i>Works</a>
-            <a href="contact.html" class="w3-bar-item w3-button"><i class="material-icons">local_phone</i>Contact</a>
-        </div>
+	<div class="parallax_header">
+		<div id="header" class = "container-fluid">
+			<h1>Zion Chan</h1>
+			<h5>BS Computer Engineering Student</h5>
+			<h5>De La Salle University</h5>
+		</div>
 	</div>
 
-	<script> /* NavBar Small Screens */
-    function nb() {
-        var x = document.getElementById("navbar");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-        } else { 
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
-    </script>
-    <!-- NAVBAR END -->
-
-
-    <!-- HEADER -->
-	<div class="headermargin container-fluid w3-dark-grey">
-		<h1 class="wow flipInX" data-wow-delay=".5s">ZION CHAN</h1>
-		<p class="wow fadeIn" data-wow-delay="1s">BS Computer Engineering Student<br>De La Salle University</p>
-	</div>
-	<!-- HEADER END -->
-
-	<!-- CONTENT -->
-	<div class="container-fluid w3-card-4 w3-light-grey" style="text-align:left">
-		<h1 class="wow slideInRight" style="padding-left:16px">SECTION 1</h1>
+	
+	<div id="section_l" class = "container-fluid">
+		<h3>BIO</h3>
 	</div>
 
-	<div class="container-fluid">
-		<div class="row w3-section">
-			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 centerCell">
-				<p align = "justify">long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text long text</p>
+	<div id="content" class = "container-fluid parallax_bio">
+		<h3>Hi!</h3>
+		<h4>I'm Zion Chan</h4>
+		<p>Currently studying BS Computer Engineering at De La Salle University</p>
+		<br>
+		<p>I am very passionate in programming and try to learn different coding languages which, in turn, extends to also enhancing my knowledge on languages that I already know</p>
+		<p>Here, let me give you a list:</p>
+		<p>Android
+		  <br>C/C++
+		  <br>HTML/CSS/JS
+		  <br>Java
+		  <br>MySQL Database
+		  <br>Python
+		  <br></p>
+		<p>I created this website to showcase my works and projects</p>
+		<br>
+		<p>I hope that you would enjoy and appreciate my work!</p>
+	</div>
+
+	<div id="section_r" class = "container-fluid">
+		<h3>WORKS</h3>
+	</div>
+
+	<div id="content" class = "container-fluid parallax_works">
+		<div class = "row">
+			<div class = "col-xs-12 col-md-6">
+				<h5>My Thesis (Ongoing)</h5>
+				<a href="https://github.com/sesemiguel/Simple-Convolutional-Neural-Network" target="_blank">Hardware Modeling Of A Convolutional Neural Network For Handwritten Digit Recognition</a>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 centerCell">
-				<img class="img-fluid mx-auto d-block" src="https://vignette.wikia.nocookie.net/asdfmovie/images/7/74/Muffin_close_up.PNG/revision/latest?cb=20131101202234" alt="muffin">
+			<div class = "col-xs-12 col-md-6">
+				<h5>Playing around with HTML, CSS, and JS with Bootstrap Framework</h5>
+				<a href="bootstrap-testing/saber.html" target="_blank">F/GO Something</a>
 			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid w3-card-4 w3-light-grey" style="text-align:right">
-		<h1 class="wow slideInLeft" style="padding-right:16px">SECTION 2</h1>
+	<div id="section_l" class = "container-fluid">
+		<h3>CONTACT</h3>
 	</div>
 
-	<div class="container-fluid">
-		<div class="row w3-section">
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 centerCell">
-				<img class="img-fluid mx-auto d-block" src="https://data2.cupsell.pl/upload/generator/28335/640x420/77946_print-trimmed-1.png?resize=max_sizes&key=55f9a22768eed085006592c1174c0235" alt="train guy">
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 centerCell">
-				<p align = "justify">I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains. I Like Trains.</p>
-			</div>
-		</div>
+	<div id="content" class = "container-fluid parallax_contact">
+		<p><h5>E-Mail:</h5> zioneric.chan@gmail.com</p>
+		<p><h5>Phone:</h5> +63 927 747 7362</p>
 	</div>
 
-	<div class="container-fluid w3-dark-grey">
-		<div class="w3-center">
-			<h5 class="wow bounceInDown">WOW</h5>
-			<h5 class="wow bounceInLeft" data-wow-delay=".5s">2018</h5>
-			<h5 class="wow bounceInRight" data-wow-delay="1s">WOW</h5>
+	<div class="parallax_footer">
+		<div id="footer" class = "container-fluid">
+			<h1>That's All! Thank You!</h1>
+			<h5>2018</h5>
 		</div>
 	</div>
 
