@@ -20,12 +20,6 @@ html{
 	1px -1px 0 black,
 	-1px 1px 0 black,
 	1px 1px 0 black; /* Text Stroke */
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#header img{
-	max-width: 100px;
-	height: auto;
 }
 
 #footer{
