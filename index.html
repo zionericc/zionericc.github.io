@@ -19,13 +19,14 @@
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
 
-	<link rel="stylesheet" href="https://zionericc.github.io/WOW-master/css/libs/animate.css"> <!-- WOW animations -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!-- WOW animations -->
 
 	<script src="https://zionericc.github.io/WOW-master/dist/wow.min.js"></script> <!-- WOW animations -->
 
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script> <!-- MDB -->
+
 	<script>
-	var wow = new WOW();
-	wow.init();
+		new WOW().init();
 	</script> <!-- Init wow -->
 
 </head>
@@ -34,8 +35,11 @@
 
 	<div class="parallax_header">
 		<div id="header" class = "container-fluid">
-			<img src="img/zclogo_full_stroke.png" alt="">
-			<h2>Portfolio</h2>
+			<!-- <img src="img/zclogo_full_stroke.png" alt=""> -->
+			<img class="animate__animated animate__zoomIn" id="logoBorder" src="img/zclogo_border_stroke.png" alt="">
+			<img class="animate__animated animate__fadeInLeft" id="logoZ" src="img/zclogo_z_stroke.png" alt="">
+			<img class="animate__animated animate__fadeInRight" id="logoC" src="img/zclogo_c_stroke.png" alt="">
+			<h2 class="animate__animated animate__fadeInUp">Portfolio</h2>
 		</div>
 	</div>
 
@@ -45,25 +49,32 @@
 	</div>
 
 	<div id="content" class = "container-fluid parallax_bio">
-		<h4>Hi! I'm,</h4>
-		<h2>Zion Eric O. Chan</h2>
-		<p>BS Computer Engineering
-		<br>De La Salle University
-		<br>2019</p>
-
-		<p>I'm a passionate programmer who continuously learns different coding languages which, in turn, extends to also enhancing knowledge on previously learned coding languages.</p>
-		<p>Programming Skills:</p>
-		<p>Android
-		<br>C/C++
-		<br>HTML/CSS/JS
-		<br>Java
-		<br>MySQL Database
-		<br>Python
-		<br>VBA
-		<br></p>
-		<p>This website showcases my works and projects</p>
-		<br>
-		<p>I hope that you would enjoy and appreciate my work!</p>
+		<div class = "row">
+			<div class = "col-xs-12 col-md-6 centerCell">
+				<div class = "wow animate__animated animate__fadeInLeft alignLeft borderRight">
+					<h4>Hi! I'm,</h4>
+					<h2>Zion Eric O. Chan</h2>
+					<p>BS Computer Engineering
+					<br>De La Salle University
+					<br>2019</p>
+				</div>		
+			</div>
+			<div class = "wow animate__animated animate__fadeInRight col-xs-12 col-md-6 divPadding centerJustify">
+				<p>I'm a passionate programmer who continuously learns different coding languages which, in turn, extends to also enhancing knowledge on previously learned coding languages.</p>
+				<p>Programming Skills:</p>
+				<p>Android
+				<br>C/C++
+				<br>HTML/CSS/JS
+				<br>Java
+				<br>MySQL Database
+				<br>Python
+				<br>VBA
+				<br></p>
+				<p>This website showcases my works and projects</p>
+				<br>
+				<p>I hope that you would enjoy and appreciate my work!</p>
+			</div>
+		</div>
 	</div>
 
 	<div id="section_r" class = "container-fluid">
@@ -72,17 +83,17 @@
 
 	<div id="content" class = "container-fluid parallax_works">
 		<div class = "row">
-			<div class = "col-xs-12 col-md-12">
+			<div class = "wow animate__animated animate__fadeInDown col-xs-12 col-md-12">
 				<p><h3>Thesis</h3>
 				<a href="https://github.com/sesemiguel/Handwritten_Digit_CNN" target="_blank">Hardware Modeling Of A Convolutional Neural Network For Handwritten Digit Recognition</a>
 				</p>
 			</div>
-			<div class = "col-xs-12 col-md-6">
+			<div class = "wow animate__animated animate__fadeInLeft col-xs-12 col-md-6">
 				<p><h5>Iskatak Bot - A Discord Bot using Python</h5>
 				<a href="https://github.com/zionericc/Discord-Bot-Iskatak" target="_blank">Iskatak Bot</a>
 				</p>
 			</div>
-			<div class = "col-xs-12 col-md-6">
+			<div class = "wow animate__animated animate__fadeInRight col-xs-12 col-md-6">
 				<p><h5>Inventory PoS - PoS Inventory Management Desktop App using mySQL with ESC/P Printer Integration</h5>
 				<a href="https://github.com/zionericc/javaInventoryPoS" target="_blank">Java Inventory PoS</a>
 				</p>
@@ -96,13 +107,13 @@
 
 	<div id="content" class = "container-fluid parallax_contact">
 		<div class="row">
-			<div class = "col-xs-12 col-md-4">
+			<div class = "wow animate__animated animate__fadeInUp col-xs-12 col-md-4">
 				<p><h5>E-Mail:</h5> zioneric.chan@gmail.com</p>
 			</div>
-			<div class = "col-xs-12 col-md-4">
+			<div class = "wow animate__animated animate__fadeInUp col-xs-12 col-md-4">
 				<p><h5>Github:</h5><a href="https://github.com/zionericc/" target="_blank"> https://github.com/zionericc/</a></p>
 			</div>
-			<div class = "col-xs-12 col-md-4">
+			<div class = "wow animate__animated animate__fadeInUp col-xs-12 col-md-4">
 				<p><h5>Phone:</h5> +63 927 747 7362</p>
 			</div>
 		</div>
@@ -110,8 +121,8 @@
 
 	<div class="parallax_footer">
 		<div id="footer" class = "container-fluid">
-			<h3>Thank You!</h3>
-			<h5>©2021</h5>
+			<!-- <h3>Thank You!</h3> -->
+			<p>©2021 zionericc.github.io</p>
 		</div>
 	</div>
 
