@@ -131,6 +131,7 @@ html{
 
 .parallax_header{
 	height: 100%;
+	width: 100%;
 	background-image: url(pics/header_pic.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -141,6 +142,7 @@ html{
 .parallax_bio{
 	/*height: 600px;*/
 	height: auto;
+	width: 100%;
 	background-image: url(pics/bio.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -150,6 +152,7 @@ html{
 
 .parallax_works{
 	height: auto;
+	width: 100%;
 	background-image: url(pics/works.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -159,6 +162,7 @@ html{
 
 .parallax_contact{
 	height: auto;
+	width: 100%;
 	background-image: url(pics/contact.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -168,6 +172,7 @@ html{
 
 .parallax_footer{
 	height: 10%;
+	width: 100%;
 	background-image: url(pics/header_pic.jpg);
 	background-attachment: fixed;
 	background-position: center;
